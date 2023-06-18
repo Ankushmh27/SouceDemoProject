@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SouceDemoTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">SouceDemoTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SouceDemoTestSuite" class="navigator-link ">
+                    <span>C:\Users\Ankush Mhala\git\repository3\com.qa.soucedemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SouceDemoTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SouceDemoTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SouceDemoTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SouceDemoTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SouceDemoTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SouceDemoTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SouceDemoTestSuite" class="hide-methods passed suite-SouceDemoTestSuite"> (hide)</a> <!-- hide-methods passed suite-SouceDemoTestSuite -->
+                      <a href="#" panel-name="suite-SouceDemoTestSuite" class="show-methods passed suite-SouceDemoTestSuite"> (show)</a> <!-- show-methods passed suite-SouceDemoTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SouceDemoTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="LoginWithEmptyCridential">LoginWithEmptyCridential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="LoginWithInValidCridential">LoginWithInValidCridential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="LoginWithValidCridential">LoginWithValidCridential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="LogoutTest">LogoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyAddToCartTest">VerifyAddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyCheckoutInfoWithInValidData">VerifyCheckoutInfoWithInValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyCheckoutInfoWithValidData">VerifyCheckoutInfoWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyFiltersDropDown">VerifyFiltersDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyShoppingCartWithEmptyItem">VerifyShoppingCartWithEmptyItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouceDemoTestSuite" title="com.SauceDemoTest.SauceDemoTestCases" class="method navigator-link" hash-for-method="VerifyShoppingCartWithItem">VerifyShoppingCartWithItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SouceDemoTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SouceDemoTestSuite" class="panel SouceDemoTestSuite">
+          <div class="suite-SouceDemoTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SauceDemoTest.SauceDemoTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithEmptyCridential">
+                  </a> <!-- LoginWithEmptyCridential -->
+                  <span class="method-name">LoginWithEmptyCridential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInValidCridential">
+                  </a> <!-- LoginWithInValidCridential -->
+                  <span class="method-name">LoginWithInValidCridential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithValidCridential">
+                  </a> <!-- LoginWithValidCridential -->
+                  <span class="method-name">LoginWithValidCridential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoutTest">
+                  </a> <!-- LogoutTest -->
+                  <span class="method-name">LogoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddToCartTest">
+                  </a> <!-- VerifyAddToCartTest -->
+                  <span class="method-name">VerifyAddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCheckoutInfoWithInValidData">
+                  </a> <!-- VerifyCheckoutInfoWithInValidData -->
+                  <span class="method-name">VerifyCheckoutInfoWithInValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCheckoutInfoWithValidData">
+                  </a> <!-- VerifyCheckoutInfoWithValidData -->
+                  <span class="method-name">VerifyCheckoutInfoWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFiltersDropDown">
+                  </a> <!-- VerifyFiltersDropDown -->
+                  <span class="method-name">VerifyFiltersDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyShoppingCartWithEmptyItem">
+                  </a> <!-- VerifyShoppingCartWithEmptyItem -->
+                  <span class="method-name">VerifyShoppingCartWithEmptyItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyShoppingCartWithItem">
+                  </a> <!-- VerifyShoppingCartWithItem -->
+                  <span class="method-name">VerifyShoppingCartWithItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SouceDemoTestSuite-class-passed -->
+        </div> <!-- panel SouceDemoTestSuite -->
+        <div panel-name="test-xml-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ankush Mhala\git\repository3\com.qa.soucedemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SouceDemoTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SouceDemoTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SauceDemoTest.SauceDemoTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SouceDemoTest --&gt;
+&lt;/suite&gt; &lt;!-- SouceDemoTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SouceDemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SouceDemoTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SouceDemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SouceDemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SouceDemoTestSuite');
+function tableData_SouceDemoTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyShoppingCartWithEmptyItem')
+data.setCell(0, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(0, 3, 9703);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyShoppingCartWithItem')
+data.setCell(1, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(1, 3, 7403);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginWithInValidCridential')
+data.setCell(2, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(2, 3, 6275);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginWithValidCridential')
+data.setCell(3, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(3, 3, 5830);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyCheckoutInfoWithValidData')
+data.setCell(4, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(4, 3, 3826);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginWithEmptyCridential')
+data.setCell(5, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(5, 3, 3314);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyFiltersDropDown')
+data.setCell(6, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(6, 3, 2640);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LogoutTest')
+data.setCell(7, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(7, 3, 2509);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyAddToCartTest')
+data.setCell(8, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(8, 3, 2274);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyCheckoutInfoWithInValidData')
+data.setCell(9, 2, 'com.SauceDemoTest.SauceDemoTestCases')
+data.setCell(9, 3, 1316);
+window.suiteTableData['SouceDemoTestSuite']= { tableData: data, tableDiv: 'times-div-SouceDemoTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-SouceDemoTestSuite">
+              </div> <!-- times-div-SouceDemoTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SouceDemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogoutTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on MenuBar</span>
+                <span class="reporter-method-output">Click on logout btn</span>
+                <span class="reporter-method-output">User logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyCheckoutInfoWithValidData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter firstname</span>
+                <span class="reporter-method-output">Enter lastname</span>
+                <span class="reporter-method-output">Enter ZipCode</span>
+                <span class="reporter-method-output">Click on Continue Btn</span>
+                <span class="reporter-method-output">Click on Finish Btn</span>
+                <span class="reporter-method-output">Click on Back Home Btn</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyCheckoutInfoWithInValidData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter firstname</span>
+                <span class="reporter-method-output">Enter lastname</span>
+                <span class="reporter-method-output">Blank Zip code</span>
+                <span class="reporter-method-output">Error Msg. : Postal Code is required</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithEmptyCridential</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Blank field Username</span>
+                <span class="reporter-method-output">Blank field Password</span>
+                <span class="reporter-method-output">Click on Login Btn</span>
+                <span class="reporter-method-output">Error Msg. Displayed</span>
+                <span class="reporter-method-output">User not login with Empty credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithValidCridential</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter Valid Username</span>
+                <span class="reporter-method-output">Enter Valid Password</span>
+                <span class="reporter-method-output">Click on Login Button</span>
+                <span class="reporter-method-output">User login with valid credentials</span>
+                <span class="reporter-method-output">Check Page Title : Test Case Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyFiltersDropDown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Items filter by Name z-a</span>
+                <span class="reporter-method-output">Items filter by Price Low to High</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyShoppingCartWithEmptyItem</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on shopping cart link</span>
+                <span class="reporter-method-output">Click on Remove Btn</span>
+                <span class="reporter-method-output">Click on Checkout Btn</span>
+                <span class="reporter-method-output">Enter Fname,LName,ZipCode</span>
+                <span class="reporter-method-output">Click on Continue Btn</span>
+                <span class="reporter-method-output">Check total price for Empty card</span>
+                <span class="reporter-method-output">Click on Finish Btn</span>
+                <span class="reporter-method-output">Click Back To Home Btn</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyShoppingCartWithItem</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Filter Dropdown list by Name Z-A</span>
+                <span class="reporter-method-output">Filter Dropdown list by price Low to High</span>
+                <span class="reporter-method-output">Click on AddToCard Btn</span>
+                <span class="reporter-method-output">Click on shopping cart link</span>
+                <span class="reporter-method-output">Click on Checkout Btn</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyAddToCartTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Add To Cart Btn</span>
+                <span class="reporter-method-output">Items Added to cart</span>
+                <span class="reporter-method-output">Check Item Details</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithInValidCridential</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter Invalid Username</span>
+                <span class="reporter-method-output">Enter Invalid Password</span>
+                <span class="reporter-method-output">Click on Login Button</span>
+                <span class="reporter-method-output">Get Error Msg</span>
+                <span class="reporter-method-output">User not login with Invalid credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SouceDemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SauceDemoTest.SauceDemoTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInValidCridential</span>
+                <span class="method-start">18258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithValidCridential</span>
+                <span class="method-start">24533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyFiltersDropDown</span>
+                <span class="method-start">30372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddToCartTest</span>
+                <span class="method-start">33012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyShoppingCartWithEmptyItem</span>
+                <span class="method-start">35286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyShoppingCartWithItem</span>
+                <span class="method-start">44989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCheckoutInfoWithInValidData</span>
+                <span class="method-start">52392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCheckoutInfoWithValidData</span>
+                <span class="method-start">53709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LogoutTest</span>
+                <span class="method-start">57536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithEmptyCridential</span>
+                <span class="method-start">60046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">63363 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
