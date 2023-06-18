@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The SauceDemo Site Launched]]>
+    </line>
+    <line>
+      <![CDATA[Enter Invalid Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Invalid Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Get Error Msg]]>
+    </line>
+    <line>
+      <![CDATA[User not login with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Enter Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[User login with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Check Page Title : Test Case Pass]]>
+    </line>
+    <line>
+      <![CDATA[Items filter by Name z-a]]>
+    </line>
+    <line>
+      <![CDATA[Items filter by Price Low to High]]>
+    </line>
+    <line>
+      <![CDATA[Click on Add To Cart Btn]]>
+    </line>
+    <line>
+      <![CDATA[Items Added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Check Item Details]]>
+    </line>
+    <line>
+      <![CDATA[Click on shopping cart link]]>
+    </line>
+    <line>
+      <![CDATA[Click on Remove Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click on Checkout Btn]]>
+    </line>
+    <line>
+      <![CDATA[Enter Fname,LName,ZipCode]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue Btn]]>
+    </line>
+    <line>
+      <![CDATA[Check total price for Empty card]]>
+    </line>
+    <line>
+      <![CDATA[Click on Finish Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click Back To Home Btn]]>
+    </line>
+    <line>
+      <![CDATA[Filter Dropdown list by Name Z-A]]>
+    </line>
+    <line>
+      <![CDATA[Filter Dropdown list by price Low to High]]>
+    </line>
+    <line>
+      <![CDATA[Click on AddToCard Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click on shopping cart link]]>
+    </line>
+    <line>
+      <![CDATA[Click on Checkout Btn]]>
+    </line>
+    <line>
+      <![CDATA[Enter firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter lastname]]>
+    </line>
+    <line>
+      <![CDATA[Blank Zip code]]>
+    </line>
+    <line>
+      <![CDATA[Error Msg. : Postal Code is required]]>
+    </line>
+    <line>
+      <![CDATA[Enter firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter lastname]]>
+    </line>
+    <line>
+      <![CDATA[Enter ZipCode]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click on Finish Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click on Back Home Btn]]>
+    </line>
+    <line>
+      <![CDATA[Click on MenuBar]]>
+    </line>
+    <line>
+      <![CDATA[Click on logout btn]]>
+    </line>
+    <line>
+      <![CDATA[User logout]]>
+    </line>
+    <line>
+      <![CDATA[Blank field Username]]>
+    </line>
+    <line>
+      <![CDATA[Blank field Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Btn]]>
+    </line>
+    <line>
+      <![CDATA[Error Msg. Displayed]]>
+    </line>
+    <line>
+      <![CDATA[User not login with Empty credentials]]>
+    </line>
+    <line>
+      <![CDATA[Quite the driver]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-19T00:08:34 IST" name="SouceDemoTestSuite" finished-at="2023-06-19T00:09:41 IST" duration-ms="66354">
+    <groups>
+    </groups>
+    <test started-at="2023-06-19T00:08:34 IST" name="SouceDemoTest" finished-at="2023-06-19T00:09:41 IST" duration-ms="66354">
+      <class name="com.SauceDemoTest.SauceDemoTestCases">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:08:35 IST" name="Setup" finished-at="2023-06-19T00:08:53 IST" duration-ms="18221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The SauceDemo Site Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithInValidCridential()[pri:1, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:08:53 IST" name="LoginWithInValidCridential" finished-at="2023-06-19T00:08:59 IST" duration-ms="6275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Invalid Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Invalid Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Get Error Msg]]>
+            </line>
+            <line>
+              <![CDATA[User not login with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithInValidCridential -->
+        <test-method signature="LoginWithValidCridential()[pri:2, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:08:59 IST" name="LoginWithValidCridential" finished-at="2023-06-19T00:09:05 IST" duration-ms="5830" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Valid Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Valid Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button]]>
+            </line>
+            <line>
+              <![CDATA[User login with valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Check Page Title : Test Case Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCridential -->
+        <test-method signature="VerifyFiltersDropDown()[pri:3, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:05 IST" name="VerifyFiltersDropDown" finished-at="2023-06-19T00:09:08 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Items filter by Name z-a]]>
+            </line>
+            <line>
+              <![CDATA[Items filter by Price Low to High]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyFiltersDropDown -->
+        <test-method signature="VerifyAddToCartTest()[pri:4, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:08 IST" name="VerifyAddToCartTest" finished-at="2023-06-19T00:09:10 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Add To Cart Btn]]>
+            </line>
+            <line>
+              <![CDATA[Items Added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Check Item Details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartTest -->
+        <test-method signature="VerifyShoppingCartWithEmptyItem()[pri:5, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:10 IST" name="VerifyShoppingCartWithEmptyItem" finished-at="2023-06-19T00:09:19 IST" duration-ms="9703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on shopping cart link]]>
+            </line>
+            <line>
+              <![CDATA[Click on Remove Btn]]>
+            </line>
+            <line>
+              <![CDATA[Click on Checkout Btn]]>
+            </line>
+            <line>
+              <![CDATA[Enter Fname,LName,ZipCode]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue Btn]]>
+            </line>
+            <line>
+              <![CDATA[Check total price for Empty card]]>
+            </line>
+            <line>
+              <![CDATA[Click on Finish Btn]]>
+            </line>
+            <line>
+              <![CDATA[Click Back To Home Btn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyShoppingCartWithEmptyItem -->
+        <test-method signature="VerifyShoppingCartWithItem()[pri:6, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:19 IST" name="VerifyShoppingCartWithItem" finished-at="2023-06-19T00:09:27 IST" duration-ms="7403" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Filter Dropdown list by Name Z-A]]>
+            </line>
+            <line>
+              <![CDATA[Filter Dropdown list by price Low to High]]>
+            </line>
+            <line>
+              <![CDATA[Click on AddToCard Btn]]>
+            </line>
+            <line>
+              <![CDATA[Click on shopping cart link]]>
+            </line>
+            <line>
+              <![CDATA[Click on Checkout Btn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyShoppingCartWithItem -->
+        <test-method signature="VerifyCheckoutInfoWithInValidData()[pri:7, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:27 IST" name="VerifyCheckoutInfoWithInValidData" finished-at="2023-06-19T00:09:28 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter lastname]]>
+            </line>
+            <line>
+              <![CDATA[Blank Zip code]]>
+            </line>
+            <line>
+              <![CDATA[Error Msg. : Postal Code is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckoutInfoWithInValidData -->
+        <test-method signature="VerifyCheckoutInfoWithValidData()[pri:8, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:28 IST" name="VerifyCheckoutInfoWithValidData" finished-at="2023-06-19T00:09:32 IST" duration-ms="3826" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter lastname]]>
+            </line>
+            <line>
+              <![CDATA[Enter ZipCode]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue Btn]]>
+            </line>
+            <line>
+              <![CDATA[Click on Finish Btn]]>
+            </line>
+            <line>
+              <![CDATA[Click on Back Home Btn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckoutInfoWithValidData -->
+        <test-method signature="LogoutTest()[pri:9, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:32 IST" name="LogoutTest" finished-at="2023-06-19T00:09:35 IST" depends-on-methods="com.SauceDemoTest.SauceDemoTestCases.LoginWithValidCridential" duration-ms="2509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on MenuBar]]>
+            </line>
+            <line>
+              <![CDATA[Click on logout btn]]>
+            </line>
+            <line>
+              <![CDATA[User logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method signature="LoginWithEmptyCridential()[pri:10, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:35 IST" name="LoginWithEmptyCridential" finished-at="2023-06-19T00:09:38 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blank field Username]]>
+            </line>
+            <line>
+              <![CDATA[Blank field Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Btn]]>
+            </line>
+            <line>
+              <![CDATA[Error Msg. Displayed]]>
+            </line>
+            <line>
+              <![CDATA[User not login with Empty credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyCridential -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SauceDemoTest.SauceDemoTestCases@740cae06]" started-at="2023-06-19T00:09:38 IST" name="TearDown" finished-at="2023-06-19T00:09:41 IST" duration-ms="2984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Quite the driver]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.SauceDemoTest.SauceDemoTestCases -->
+    </test> <!-- SouceDemoTest -->
+  </suite> <!-- SouceDemoTestSuite -->
+</testng-results>

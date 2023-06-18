@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.qa.soucedemo by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.SauceDemoTest(failed)">
+    <classes>
+      <class name="com.SauceDemoTest.SauceDemoTestCases">
+        <methods>
+          <include name="TearDown"/>
+          <include name="ItemCheckoutTest"/>
+          <include name="SoppingCartTest"/>
+          <include name="FillYourInfoTest"/>
+          <include name="AddToCartTest"/>
+          <include name="LogoutTest"/>
+          <include name="FilterItemsTest"/>
+          <include name="LoginTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.SauceDemoTest.SauceDemoTestCases -->
+    </classes>
+  </test> <!-- com.SauceDemoTest(failed) -->
+</suite> <!-- Failed suite [com.qa.soucedemo by packages] -->

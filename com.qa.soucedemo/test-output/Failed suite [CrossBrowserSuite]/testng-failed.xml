@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [CrossBrowserSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrossbrowserTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.SauceDemoTest.SauceDemoTestCases">
+        <methods>
+          <include name="VerifyShoppingCartWithItem"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.SauceDemoTest.SauceDemoTestCases -->
+    </classes>
+  </test> <!-- CrossbrowserTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [CrossBrowserSuite]] -->

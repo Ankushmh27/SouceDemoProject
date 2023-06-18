@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>TestNG:  CrossbrowserTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CrossbrowserTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 19 00:06:53 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47970 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.LoginWithValidCridential()'><b>LoginWithValidCridential</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-1653153736" onClick='toggleBox("Output-1653153736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1653153736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1653153736">
+Enter Valid Username<br/>
+Enter Valid Password<br/>
+Click on Login Button<br/>
+User login with valid credentials<br/>
+Check Page Title : Test Case Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyShoppingCartWithEmptyItem()'><b>VerifyShoppingCartWithEmptyItem</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-1619773688" onClick='toggleBox("Output-1619773688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1619773688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1619773688">
+Click on shopping cart link<br/>
+Click on Remove Btn<br/>
+Click on Checkout Btn<br/>
+Enter Fname,LName,ZipCode<br/>
+Click on Continue Btn<br/>
+Check total price for Empty card<br/>
+Click on Finish Btn<br/>
+Click Back To Home Btn<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.LoginWithInValidCridential()'><b>LoginWithInValidCridential</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-1196404281" onClick='toggleBox("Output-1196404281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1196404281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1196404281">
+Enter Invalid Username<br/>
+Enter Invalid Password<br/>
+Click on Login Button<br/>
+Get Error Msg<br/>
+User not login with Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyCheckoutInfoWithValidData()'><b>VerifyCheckoutInfoWithValidData</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-1979825302" onClick='toggleBox("Output-1979825302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1979825302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1979825302">
+Enter firstname<br/>
+Enter lastname<br/>
+Enter ZipCode<br/>
+Click on Continue Btn<br/>
+Click on Finish Btn<br/>
+Click on Back Home Btn<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyAddToCartTest()'><b>VerifyAddToCartTest</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-1903406683" onClick='toggleBox("Output-1903406683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1903406683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1903406683">
+Click on Add To Cart Btn<br/>
+Items Added to cart<br/>
+Check Item Details<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.LoginWithEmptyCridential()'><b>LoginWithEmptyCridential</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-2070295086" onClick='toggleBox("Output-2070295086", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2070295086" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2070295086">
+Blank field Username<br/>
+Blank field Password<br/>
+Click on Login Btn<br/>
+Error Msg. Displayed<br/>
+User not login with Empty credentials<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyShoppingCartWithItem()'><b>VerifyShoppingCartWithItem</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-662433937" onClick='toggleBox("Output-662433937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-662433937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-662433937">
+Filter Dropdown list by Name Z-A<br/>
+Filter Dropdown list by price Low to High<br/>
+Click on AddToCard Btn<br/>
+Click on shopping cart link<br/>
+Click on Checkout Btn<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyFiltersDropDown()'><b>VerifyFiltersDropDown</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-81722690" onClick='toggleBox("Output-81722690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81722690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81722690">
+Items filter by Name z-a<br/>
+Items filter by Price Low to High<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.LogoutTest()'><b>LogoutTest</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-2058661465" onClick='toggleBox("Output-2058661465", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2058661465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2058661465">
+Click on MenuBar<br/>
+Click on logout btn<br/>
+User logout<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+<tr>
+<td title='com.SauceDemoTest.SauceDemoTestCases.VerifyCheckoutInfoWithInValidData()'><b>VerifyCheckoutInfoWithInValidData</b><br>Test class: com.SauceDemoTest.SauceDemoTestCases<br/>
+<a href="#Output-2040548959" onClick='toggleBox("Output-2040548959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2040548959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2040548959">
+Enter firstname<br/>
+Enter lastname<br/>
+Blank Zip code<br/>
+Error Msg. : Postal Code is required<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemoTest.SauceDemoTestCases@740cae06</td></tr>
+</table><p>
+</body>
+</html>
